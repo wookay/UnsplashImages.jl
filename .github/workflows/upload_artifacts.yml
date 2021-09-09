@@ -45,7 +45,7 @@ jobs:
 
                 [[images.download]]
                 sha256 = "${{ steps.build_artifacts.outputs.tarball_hash }}"
-                url = "https://URL/TO/images.tar.gz"
+                url = "https://github.com/wookay/UnsplashImages.jl/releases/download/${{ github.ref }}/images.tar.gz"
             ```
           draft: false
           prerelease: false
