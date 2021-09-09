@@ -1,0 +1,19 @@
+#
+# An easy image database
+#
+# the key has to match the filename
+# then one can use the sub fields
+#
+# name     - filename in the images directory
+# fullname - displayed name for the image
+# author   – original author (if known)
+# url      - origin url (if known)
+# license  - license
+#
+# none of these fields is required.
+
+[[images]]
+name = "tyler-nix-k5R4cdIAiuk-unsplash.small.jpg"
+author = "Tyler Nix"
+url = "https://unsplash.com/photos/k5R4cdIAiuk"
+license = "Free to use under the Unsplash License"
