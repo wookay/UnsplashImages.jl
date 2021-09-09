@@ -2,3 +2,11 @@ name = "UnsplashImages"
 uuid = "018a8716-3529-40a8-9f6f-4d02788072b2"
 authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+
+[compat]
+FileIO = "1.11"
+julia = "1.3"
