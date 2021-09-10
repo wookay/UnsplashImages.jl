@@ -1,7 +1,7 @@
 [images]
-git-tree-sha1 = "5f6e78f15fd5bea320c1e5b9daf5a0062f185215"
+git-tree-sha1 = "d80d3f1796612f2974dce8caf46da7fd8038fa56"
 lazy = true
 
     [[images.download]]
-    sha256 = "2104ac05ff5309a7fe50e7a393c7b92e92a895f1dabeb4dab2487b3508883c58"
-    url = "https://github.com/wookay/UnsplashImages.jl/releases/download/v0.1.0-artifacts/images.tar.gz"
+    sha256 = "53eea9617bc3e996d433f77cae96838dbc7cc7f6a1afb58e704607f0d830298c"
+    url = "https://github.com/wookay/UnsplashImages.jl/releases/download/v0.1.1-artifacts/images.tar.gz"
