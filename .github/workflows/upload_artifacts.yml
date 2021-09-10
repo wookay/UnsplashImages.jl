@@ -28,6 +28,9 @@ jobs:
         run: |
           julia --color=yes --project=. -e "using Pkg; Pkg.instantiate()"
           julia --color=yes --project=. build_artifacts.jl
+      - name: Get Tag Name
+        id: vars
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -45,7 +48,7 @@ jobs:
 
                 [[images.download]]
                 sha256 = "${{ steps.build_artifacts.outputs.tarball_hash }}"
-                url = "https://github.com/wookay/UnsplashImages.jl/releases/download/${{ github.ref }}/images.tar.gz"
+                url = "https://github.com/wookay/UnsplashImages.jl/releases/download/${{ steps.vars.outputs.tag }}/images.tar.gz"
             ```
           draft: false
           prerelease: false
