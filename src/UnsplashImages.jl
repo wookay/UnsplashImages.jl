@@ -1,7 +1,8 @@
 module UnsplashImages
 
-using FileIO
 using Pkg.Artifacts
+using FileIO
+using ImageShow
 
 export unsplash_image
 
