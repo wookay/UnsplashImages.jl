@@ -8,6 +8,9 @@ export unsplash_image
 
 const artifacts_toml = normpath(@__DIR__, "..", "Artifacts.toml")
 
+"""
+    unsplash_image(filename; ops...)
+"""
 function unsplash_image(filename; ops...)
     imagefile = image_path(filename)
     load(imagefile; ops...)

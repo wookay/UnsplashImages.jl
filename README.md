@@ -1,8 +1,8 @@
 # UnsplashImages.jl
 
-|  **Build Status**                 |
-|:---------------------------------:|
-|  [![][actions-img]][actions-url]  |
+|  **Documentation**                        |  **Build Status**                 |
+|:-----------------------------------------:|:---------------------------------:|
+|  [![][docs-latest-img]][docs-latest-url]  |  [![][actions-img]][actions-url]  |
 
 some test images from <https://unsplash.com/>
 
@@ -25,6 +25,9 @@ julia> size(img)
    - `.github/workflows/upload_artifacts.yml`, `build_artifacts.jl`, `Project.toml`
 
 
+
+[docs-latest-img]: https://img.shields.io/badge/docs-latest-blue.svg
+[docs-latest-url]: https://wookay.github.io/docs/UnsplashImages.jl/
 
 [actions-img]: https://github.com/wookay/UnsplashImages.jl/workflows/CI/badge.svg
 [actions-url]: https://github.com/wookay/UnsplashImages.jl/actions
